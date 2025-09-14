@@ -26,12 +26,13 @@ De nieuwe **Comparison Pane** in Mendix Studio Pro is een krachtige feature desi
 
 3.  **Bekijk document niveau veranderingen:**
     *   After the comparison completes, the Comparison Pane will display a list of all documents that have changed between Revision A and Revision B. This list is presented in a similar fashion to the existing "Changes" pane, clearly indicating whether a document was added, deleted, or modified.
+    *   Since you already have used the changes pane, you don't need any further explanation, but we will give it to you anyways. 
     *   Examples of documents include: `MyFirstModule/Pages/HomePage.mxpage`, `MyFirstModule/Microflows/ACT_SaveOrder.mfd`, `DomainModel.mxd`.
 
 4.  **Inspecting Element-Level Changes:**
     *   To delve deeper into a specific document and view its internal changes, **double-click** on its entry in the list.
     *   The pane will then expand or navigate to show a detailed view of that document, listing all the individual elements within it that have been modified. This could include widgets on a page, activities in a microflow, or attributes in an entity.
-    *   For instance, if `HomePage.mxpage` was modified, you might see elements like `DataGrid_Orders`, `Button_NewOrder`, `TextBox_Search` listed as changed.
+    *   For instance, if `HomePage` was modified, you might see elements like `DataGrid1`, `Button2` and `TextBox3` listed as changed.
 
 5.  **Understanding Property-Level Differences:**
     *   To see the exact property changes for a specific element, **double-click** on the element within the document's detailed view.
