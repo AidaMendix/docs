@@ -11,25 +11,23 @@ The new **Comparison Pane** in Mendix Studio Pro is a powerful feature designed 
 
 1.  **Initiating a comparison:**
     *   In Mendix Studio Pro, navigate to the **Version Control** menu.
-    *   Select the new option, named **"Compare Revisions..."** This action will open the revision selector where you can select which revisions you want to use. Starting the comparison will then open the Comparison Pane.
+    *   Select the new option, named **"Compare Revisions..."** 
+    *   Within the popup you can use the **Select** button to choose your revisions
+    *   **"Older Revision":** Choose the older or baseline revision you want to compare *from*.
+    *   **"Newer Revision":** Choose the newer revision you want to compare *to*.
+    *   You can search revisions by using their unique revision number.
+    *   Once both revisions are selected, click the **"Compare"** button to initiate the comparison.
 
-2.  **Selecting Revisions for Comparison:**
-    *   Within the Comparison Pane, you will find controls to select two specific revisions for comparison. These are often presented as dropdown menus or input fields.
-    *   **"Revision A" (or "Source Revision"):** Choose the older or baseline revision you want to compare *from*.
-    *   **"Revision B" (or "Target Revision"):** Choose the newer revision you want to compare *to*.
-    *   You can typically select revisions by their unique revision number.
-    *   Once both revisions are selected, click the **"Compare"** button (or similar) to initiate the comparison process.
-
-3.  **Viewing Document-Level Differences:**
+2.  **Viewing Document-Level Differences:**
     *   After the comparison completes, the Comparison Pane will display a list of all documents that have changed between Revision A and Revision B. This list is presented in a similar fashion to the existing "Changes" pane, clearly indicating whether a document was added, deleted, or modified.
     *   Examples of documents include: `MyFirstModule/Pages/HomePage.mxpage`, `MyFirstModule/Microflows/ACT_SaveOrder.mfd`, `DomainModel.mxd`.
 
-4.  **Inspecting Element-Level Changes:**
+3.  **Inspecting Element-Level Changes:**
     *   To delve deeper into a specific document and view its internal changes, **double-click** on its entry in the list.
     *   The pane will then expand or navigate to show a detailed view of that document, listing all the individual elements within it that have been modified. This could include widgets on a page, activities in a microflow, or attributes in an entity.
     *   For instance, if `HomePage.mxpage` was modified, you might see elements like `DataGrid_Orders`, `Button_NewOrder`, `TextBox_Search` listed as changed.
 
-5.  **Understanding Property-Level Differences:**
+4.  **Understanding Property-Level Differences:**
     *   To see the exact property changes for a specific element, **double-click** on the element within the document's detailed view.
     *   The Comparison Pane will then highlight or list the specific properties of that element that have been altered, typically showing both the old value (from Revision A) and the new value (from Revision B).
     *   For example, for `Button_NewOrder`, you might see that its `Caption` property changed from "Create Order" to "Add New Order," or its `OnClick` event was reconfigured.
