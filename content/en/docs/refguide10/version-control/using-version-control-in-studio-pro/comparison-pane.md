@@ -19,18 +19,15 @@ The new **Comparison Pane** in Mendix Studio Pro is a powerful feature designed 
     *   Once both revisions are selected, click the **"Compare"** button to initiate the comparison.
 
 2.  **Viewing Document-Level Differences:**
-    *   After the comparison completes, the Comparison Pane will display a list of all documents that have changed between Revision A and Revision B. This list is presented in a similar fashion to the existing "Changes" pane, clearly indicating whether a document was added, deleted, or modified.
-    *   Examples of documents include: `MyFirstModule/Pages/HomePage.mxpage`, `MyFirstModule/Microflows/ACT_SaveOrder.mfd`, `DomainModel.mxd`.
+    *   After the comparison completes, the Comparison Pane will display a list of all documents that have changed between the Older Revision and Newer Revision. This list is presented in a similar fashion to the existing "Changes" pane, clearly indicating whether a document was added, deleted, or modified.
 
 3.  **Inspecting Element-Level Changes:**
     *   To delve deeper into a specific document and view its internal changes, **double-click** on its entry in the list.
-    *   The pane will then expand or navigate to show a detailed view of that document, listing all the individual elements within it that have been modified. This could include widgets on a page, activities in a microflow, or attributes in an entity.
-    *   For instance, if `HomePage.mxpage` was modified, you might see elements like `DataGrid_Orders`, `Button_NewOrder`, `TextBox_Search` listed as changed.
+    *   The pane will then navigate to show a detailed view of that document, listing all the individual elements within it that have been modified. This could include widgets on a page, activities in a microflow, or attributes in an entity.
 
 4.  **Understanding Property-Level Differences:**
     *   To see the exact property changes for a specific element, **double-click** on the element within the document's detailed view.
-    *   The Comparison Pane will then highlight or list the specific properties of that element that have been altered, typically showing both the old value (from Revision A) and the new value (from Revision B).
-    *   For example, for `Button_NewOrder`, you might see that its `Caption` property changed from "Create Order" to "Add New Order," or its `OnClick` event was reconfigured.
+    *   The Comparison Pane will then highlight or list the specific properties of that element that have been altered, typically showing both the old value (from the Older Revision) and the new value (from the Newer Revision).
 
 ### Benefits for Mendix Developers
 
