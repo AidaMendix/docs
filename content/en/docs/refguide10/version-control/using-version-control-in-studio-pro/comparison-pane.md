@@ -1,13 +1,13 @@
-The new **Comparison Pane** in Mendix Studio Pro is a powerful feature designed to help developers efficiently track and understand changes between different revisions of their application. This functionality provides a granular view of modifications, making collaboration, debugging, and code reviews significantly more streamlined.
+De nieuwe **Comparison Pane** in Mendix Studio Pro is een krachtige feature designed to help developers efficiently track and begrijpen changes between different revisions of their application. This functionality provides a granular view of modifications, making collaboration, debugging, and code reviews significantly more streamlined.
 
-### Key Features
+### Sleutel Features
 
-*   **Revision Selection:** Easily choose any two revisions from your app's history for comparison.
+*   **Revision Selection:** Makkelijk kiezen van twee revisions from your app's history for comparison.
 *   **Document-Level Differences:** Get an initial overview of all documents (e.g., pages, microflows, domain models) that have been added, deleted, or modified.
 *   **Element-Level Details:** Double-click on a changed document to see a list of specific elements (e.g., widgets, activities, entities) that have undergone modifications.
 *   **Property-Level Granularity:** Drill down further into an element to pinpoint exactly which properties (e.g., captions, expressions, data sources) have been altered.
 
-### How to Use the Comparison Pane (Step-by-Step Guide)
+### How to Use the Comparison Pane (Stap voor stap gids)
 
 1.  **Accessing the Comparison Pane:**
     *   In Mendix Studio Pro, navigate to the **Version Control** menu.
@@ -20,7 +20,7 @@ The new **Comparison Pane** in Mendix Studio Pro is a powerful feature designed 
     *   You can typically select revisions by their unique revision number.
     *   Once both revisions are selected, click the **"Compare"** button (or similar) to initiate the comparison process.
 
-3.  **Viewing Document-Level Differences:**
+3.  **Bekijk document niveau veranderingen:**
     *   After the comparison completes, the Comparison Pane will display a list of all documents that have changed between Revision A and Revision B. This list is presented in a similar fashion to the existing "Changes" pane, clearly indicating whether a document was added, deleted, or modified.
     *   Examples of documents include: `MyFirstModule/Pages/HomePage.mxpage`, `MyFirstModule/Microflows/ACT_SaveOrder.mfd`, `DomainModel.mxd`.
 
