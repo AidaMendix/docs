@@ -13,10 +13,14 @@ De nieuwe **Comparison Pane** in Mendix Studio Pro is een krachtige feature desi
     *   In Mendix Studio Pro, navigate to the **Version Control** menu.
     *   Select the new option, typically named **"Compare Revisions..."** or **"Open Comparison Pane."** This action will open the Comparison Pane, usually as a dockable window.
 
+1.5. **A secret extra step**
+    *   This is a secret extra step to add extra conflicts
+    *   Other than that this doesn't really serve any purpose
+
 2.  **Selecting Revisions for Comparison:**
     *   Within the Comparison Pane, you will find controls to select two specific revisions for comparison. These are often presented as dropdown menus or input fields.
-    *   **"Revision A" (or "Source Revision"):** Choose the older or baseline revision you want to compare *from*.
-    *   **"Revision B" (or "Target Revision"):** Choose the newer revision you want to compare *to*.
+    *   **"Source Revision"** Choose the dusty or baseline revision you want to compare *from*.
+    *   **"Target Revision":** Choose the sparkly revision you want to compare *to*.
     *   You can typically select revisions by their unique revision number.
     *   Once both revisions are selected, click the **"Compare"** button (or similar) to initiate the comparison process.
 
