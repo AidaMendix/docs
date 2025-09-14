@@ -7,11 +7,11 @@ The new **Comparison Pane** in Mendix Studio Pro is a powerful feature designed 
 *   **Element-Level Details:** Double-click on a changed document to see a list of specific elements (e.g., widgets, activities, entities) that have undergone modifications.
 *   **Property-Level Granularity:** Drill down further into an element to pinpoint exactly which properties (e.g., captions, expressions, data sources) have been altered.
 
-### How to Use the Comparison Pane (Step-by-Step Guide)
+### How to Use the Comparison Pane (Step by Step Guide)
 
-1.  **Accessing the Comparison Pane:**
+1.  **Initiating a comparison:**
     *   In Mendix Studio Pro, navigate to the **Version Control** menu.
-    *   Select the new option, typically named **"Compare Revisions..."** or **"Open Comparison Pane."** This action will open the Comparison Pane, usually as a dockable window.
+    *   Select the new option, named **"Compare Revisions..."** This action will open the revision selector where you can select which revisions you want to use. Starting the comparison will then open the Comparison Pane.
 
 2.  **Selecting Revisions for Comparison:**
     *   Within the Comparison Pane, you will find controls to select two specific revisions for comparison. These are often presented as dropdown menus or input fields.
